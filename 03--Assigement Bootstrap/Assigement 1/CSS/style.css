@@ -1,0 +1,34 @@
+header{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0) 0px 3px 6px;
+}
+/*#hero-section{
+    background-image: url(/Assest/images/architect.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    ba
+}*/
+/*.col-12 h3{
+    margin-top: 45px;
+    font-size: 30px;
+}
+.col-12 span{
+    background-color: rgba(0, 0, 0, 0.7);
+}*/
+/*body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}*/
+.about-section img{
+    filter: grayscale(0.75);
+}
+/*.navbar.sticky-top {
+  z-index: 1030; /* always on top 
+}*/
+
+/* .hero .position-absolute { 
+  z-index: 1; /* below navbar
+}*/
+

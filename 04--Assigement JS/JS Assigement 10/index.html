@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap 5.3.8 -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+
+      <!-- Tostify  -->
+     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+     <!-- Custom CSS -->
+      <link rel="stylesheet" href="CSS/style.css">
+
+    <title>JS Assigement 10</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark mb-5">
+  <div class="container">
+    <a class="navbar-brand" href="#">Assigements</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Local Storage</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-light" type="submit">Search</button> -->
+        <div id="fullName" class="text-light"></div>
+      </form>
+    </div>
+  </div>
+</nav>
+    </header>
+    <main>
+      <!-- section 1 -->
+        <div class="container text-center mb-5">
+            <h3 class="text-black py-4" style="border-bottom: 1px solid black;">JavaScript LocalStorage</h3>
+        </div>
+
+       <!-- section 2 -->
+        <div class="container">
+          <div class="text-center">
+            <h3 class="mb-3">JavaScript String</h3>
+            <div class="box1 py-4 rounded-1">
+              <button class="btn btn-danger rounded-1 mb-2" onclick="create()">Create</button>
+              <button class="btn btn-danger rounded-1 mb-2" onclick="read()">Read</button>
+              <button class="btn btn-danger rounded-1 mb-2" onclick="update()">Update</button>
+              <button class="btn btn-danger rounded-1 mb-2" onclick="delete0()">Delete</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- section 3 -->
+         <div class="container mt-5 text-center">
+          <h3 class="mb-3">JavaScript Array</h3>
+          <div class="box4 py-4 rounded-1">
+            <button class="btn btn-danger rounded-1 mb-2" onclick="createArray()">Create</button>
+            <button class="btn btn-danger rounded-1 mb-2" onclick="readArray()">Read</button>
+            <button class="btn btn-danger rounded-1 mb-2" onclick="updateArray()">Update</button>
+            <button class="btn btn-danger rounded-1 mb-2" onclick="deleteArray()">Delete</button>
+          </div>
+         </div>
+
+    </main>
+    <footer>
+        <div class="container-fluid text-light py-2 text-center">
+           <h6>&copy; <script>document.write(new Date().getFullYear())</script>. Assigement By www.moizgujjar.net</h6>
+        </div>
+    </footer>
+    <!-- Js -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+     
+     <!-- Tostify Js  -->
+     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+     <!-- Custom JS -->
+      <script src="js/script.js"></script>
+</body>
+</html>

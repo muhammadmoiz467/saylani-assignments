@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex: 1;
+}
+header nav{
+    background-color: #003049;
+}
+footer{
+    background-color: #003049;
+}
+.box1,.box4{
+    border: 1px solid black;
+}

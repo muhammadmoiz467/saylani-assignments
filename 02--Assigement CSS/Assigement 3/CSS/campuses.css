@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: sans-serif;
+/*
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 176;
+  font-style: normal;*/
+}
+/*body{
+    background-color: #f8fafa;
+    overflow-x: hidden;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 176;
+  font-style: normal;
+
+}*/
+body {
+  background-color: #f8fafa;
+  overflow-x: hidden;
+ /* font-family: "Raleway", sans-serif;*/ 
+ font-weight: 400;
+}
+
+header nav img{
+    width: 100px;
+    margin-left: 50px;
+}
+header nav{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     /*border: 1px solid rgb(189, 186, 186);*/
+     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+     padding: 5px;
+}
+a{
+    text-decoration: none;
+    margin-left: 25px;
+    color: black;
+    font-size: 15px;
+}
+header nav button{
+    background-color: #296abe;
+    border-radius: 20px;
+    padding: 10px 30px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    margin-left: 30px;
+}
+/* ===== Main ===== */
+.About{
+    width: 100%;
+    height: 200px;
+    background: #1989b5;
+background: linear-gradient(87deg, rgba(25, 137, 181, 1) 45%, rgba(172, 224, 94, 1) 90%);
+    align-content: center;
+    margin-bottom: 50px;
+}
+.About .abouttext1{
+       padding-left: 300px;
+       color: white;
+}
+.abouttext1 h6{
+    font-size: 15px;
+    text-indent: 50px;
+}
+.abouttext1 h1{
+    font-size: 50px;
+    padding-top: 15px;
+    padding-bottom: 8px;
+}
+.abouttext1 p{
+    font-size: 19px;
+}
+/* ===== Map img ==== */
+.campusesmapimg {
+           display: flex;
+           justify-content: center;
+           margin-bottom: 50px;
+}
+.campusesmapimg img{
+    width: 1000px;
+}
+/* ===== dropdownlist ===== */
+.dropdownlistsearch{
+          width: 550px;
+} 
+.dropdowntext p{
+         padding-bottom: 15px;
+         color: rgb(48, 47, 47);
+}
+.dropdown{
+    width: 100%;
+    padding: 14px 16px;
+    font-size: 16px;
+    color: #6b7280;
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+.dropdownlistsearch,.dropdownlistbuttonbox{
+     display: inline-flex;
+     justify-content: space-between;
+     /*margin-left: 300px;*/
+}
+.dropdownlist{
+    margin-left: 300px;
+}
+.dropdownlistbuttonbox{
+    margin-left: 300px;
+    gap: 10px;
+}
+.dropdownlistbuttonbox button {
+    padding: 8px 22px;
+    font-size: 15px;
+    border-radius: 30px;
+    background-color: rgb(234, 237, 237);
+    border: none;
+    border: 1px solid rgb(172, 185, 190);
+    color: rgb(43, 41, 41)
+}
+.dropdownlistbuttonbox button span{
+    color: #296abe;
+    font-weight: bold;
+}
+/* ===== campuses name overall ===== */
+.campusesoverall .boxnumber1,.boxnumber2,.boxnumber3,.boxnumber4{
+            border: none;
+            width: 200px;
+            height: 350px;
+}
+.campusesoverall{
+    border: none;
+    width: 100%;
+    height: 400px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.campusesoverall{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.campusesoverall h3{
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+.campusesoverall h1{
+    color: #296abe;
+    font-size: 27px;
+}
+.campusesoverall p{
+    font-size: 12px;
+    font-weight: bolder;
+    color: rgb(133, 130, 130);
+    padding-top: 5px;
+}
+/*.dropdownlistbuttonbox{
+    padding-left: 900px;
+    gap: 100px;
+}*/
+/* Footer */
+.subfooter{
+   border: 1px solid black;
+   width: 100%;
+   height: 500px;
+   background-color: black;
+}
+/*.imgfooter img{
+    width: 100px;
+
+}
+.imgfooter img.img02{
+    width: 150px;
+}*/
+.box00 img{
+    width: 100px;
+}
+.box00 .img02{
+    width: 150px;
+}
+.mainbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainbox .box00{
+    line-height: 25px;
+}
+.box{
+    border: 1px solid;
+    margin:  50px 2%;
+    border: none;
+}
+.box p{
+    margin-left: 0;
+    text-align: justify;
+   /* color: rgb(142, 134, 134);*/
+}
+.box00,.box01,.box02,.box03 p{
+    color: rgb(142, 134, 134);
+    border: none;
+}
+/*.box00,.box01,.box02,.box03 h3{
+    color: white;
+}*/
+.box h3.mainfooterh3{
+    color: white;
+}
+/* ===== main footer ===== */
+.mainfooter{
+        border-top: 1px solid rgb(77, 68, 68);
+        border-bottom: 3 px solid black;
+        color: rgb(142, 134, 134);
+        background-color: black;
+        width: 100%;
+        height: 100px;
+}
+.mainfooter .right2025,.Policy2{
+    border: none;
+    font-size: 14px;
+    font-weight: 0px;
+}
+.mainfooter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mainfooter .Policy2 span{
+    padding-left: 30px;
+}
+.mainfooter .right2025 p span{
+            font-size: 16px;
+            color: white;
+            font-weight: bold;
+}

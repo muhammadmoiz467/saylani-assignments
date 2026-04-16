@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: sans-serif;
+/*
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 176;
+  font-style: normal;*/
+}
+/*body{
+    background-color: #f8fafa;
+    overflow-x: hidden;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 176;
+  font-style: normal;
+
+}*/
+body {
+  background-color: #f8fafa;
+  overflow-x: hidden;
+ /* font-family: "Raleway", sans-serif;*/ 
+ font-weight: 400;
+}
+
+header nav img{
+    width: 100px;
+    margin-left: 50px;
+}
+header nav{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     /*border: 1px solid rgb(189, 186, 186);*/
+     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+     padding: 5px;
+}
+a{
+    text-decoration: none;
+    margin-left: 25px;
+    color: black;
+    font-size: 15px;
+}
+header nav button{
+    background-color: #296abe;
+    border-radius: 20px;
+    padding: 10px 30px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    margin-left: 30px;
+}
+/* ===== Main ===== */
+.About{
+    width: 100%;
+    height: 200px;
+    background: #1989b5;
+background: linear-gradient(87deg, rgba(25, 137, 181, 1) 45%, rgba(172, 224, 94, 1) 90%);
+    align-content: center;
+}
+.About .abouttext1{
+       padding-left: 300px;
+       color: white;
+}
+.abouttext1 h6{
+    font-size: 15px;
+    text-indent: 50px;
+}
+.abouttext1 h1{
+    font-size: 50px;
+    padding-top: 15px;
+    padding-bottom: 8px;
+}
+.abouttext1 p{
+    font-size: 15px;
+}
+/* ===== about img ===== */
+.aboutimg .text2,.aboutimg2{
+    /*border: 1px solid black;*/
+    width: 500px;
+    height: 450px;
+    border: none;
+    
+}
+.aboutimg{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.aboutimg2 img{
+   width: 400px;
+}
+.text2 h6{
+         font-size: 15px;
+         color: rgb(100, 195, 42);
+         line-height: 30px;
+}
+.text2 h1{
+    font-size: 35px;
+    line-height: 47px;
+    font-weight: 800;
+}
+.text2 p span{
+        font-weight: bold;
+}
+.text2 p{
+    line-height: 27px;
+    margin-top: 25px;
+}
+.aboutimg .text2{
+      margin-top: 120px;
+}
+.aboutimg .aboutimg2 img{
+    width: 500px;
+    height: 500px;
+    margin-top: 80px;
+    border-radius: 20px;
+}
+/* ===== last about text ===== */
+.lastabouttext{
+        text-align: center;
+          background: #1989b5;
+background: linear-gradient(87deg, rgba(25, 137, 181, 1) 45%, rgba(172, 224, 94, 1) 90%);
+         width: 100%;
+         height: 300px;
+}
+.lastabouttext h1{
+    max-width: 1000px;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+.lastabouttext1{
+    padding-top: 80px;
+}
+.lastabouttext1 button{
+    padding: 9px 35px;
+    border-radius: 35px;
+    color: #296abe;
+    font-size: 17px;
+    border: none;
+    margin-top: 40px;
+}
+/* ====== footer ======*/
+.subfooter{
+   border: 1px solid black;
+   width: 100%;
+   height: 500px;
+   background-color: black;
+}
+/*.imgfooter img{
+    width: 100px;
+
+}
+.imgfooter img.img02{
+    width: 150px;
+}*/
+.box00 img{
+    width: 100px;
+}
+.box00 .img02{
+    width: 150px;
+}
+.mainbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainbox .box00{
+    line-height: 25px;
+}
+.box{
+    border: 1px solid;
+    margin:  50px 2%;
+}
+.box p{
+    margin-left: 0;
+    text-align: justify;
+    color: rgb(142, 134, 134);
+}
+.box h3{
+    color: white;
+}
+/* ===== main footer ===== */
+.mainfooter{
+        border-top: 1px solid rgb(77, 68, 68);
+        border-bottom: 3 px solid black;
+        color: rgb(142, 134, 134);
+        background-color: black;
+        width: 100%;
+        height: 100px;
+}
+.mainfooter .right2025,.Policy2{
+    border: none;
+    font-size: 14px;
+    font-weight: 0px;
+}
+.mainfooter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mainfooter .Policy2 span{
+    padding-left: 30px;
+}
+.mainfooter .right2025 p span{
+            font-size: 16px;
+            color: white;
+            font-weight: bold;
+}
