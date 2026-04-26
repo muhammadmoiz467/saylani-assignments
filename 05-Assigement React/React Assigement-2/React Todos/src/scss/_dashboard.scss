@@ -1,0 +1,22 @@
+main.dashboard {
+    background: #020024;
+    background: linear-gradient(90deg, rgb(50, 213, 224) 0%, rgb(126, 206, 209) 35%, rgb(96, 139, 238) 100%);
+
+    .github-icon {
+        font-size: 50px;
+        margin-left: 5px;
+        color: black;
+        transition: 0.3s ease;
+
+
+
+         &:hover {
+            color: #1d3557;
+            /* hover color */
+            filter: blur(0.5px);
+            /* light blur effect */
+            transform: scale(1.2);
+            /* zoom effect */
+        }
+    }
+}

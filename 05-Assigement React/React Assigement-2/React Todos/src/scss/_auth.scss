@@ -1,0 +1,26 @@
+main.auth {
+    background: #102e57;
+    background: linear-gradient(90deg, rgba(16, 46, 87, 1) 0%, rgba(11, 27, 115, 1) 27%, rgba(9, 18, 23, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .card {
+        max-width: 500px;
+        margin: 0 auto;
+
+    }
+}
+main.forgotPassword {
+     background: linear-gradient(90deg, rgb(150, 182, 45) 0%, rgb(82, 221, 205) 27%, rgb(108, 197, 18) 100%);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     
+     .card{
+        max-width: 500px;
+        margin: 0 auto;
+     }
+}
