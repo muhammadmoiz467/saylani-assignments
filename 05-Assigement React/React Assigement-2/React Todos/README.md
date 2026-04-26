@@ -32,6 +32,12 @@ It is a simple authentication system built using React.
 
 ---
 
+🌐 Live Demo
+
+👉 https://moiz-react2.surge.sh/
+
+---
+
 ## ⚙️ Installation
 
 ```bash
