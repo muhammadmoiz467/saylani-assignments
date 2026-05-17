@@ -4,7 +4,7 @@ import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 
 import Home from './Home'
-// import TodosMy from './TodosMy'
+import TodosHome from './Todos'
 
 const Frontend = () => {
     return (
@@ -12,7 +12,7 @@ const Frontend = () => {
             <Header />
             <Routes>
                 <Route path='/' element={<Home />} />
-                {/* <Route path='todosmy' element={<TodosMy />} /> */}
+                <Route path='todoshome' element={<TodosHome/>} />
                 <Route path='*' element={<h1>Page Not Found!</h1>} />
             </Routes>
             <Footer />

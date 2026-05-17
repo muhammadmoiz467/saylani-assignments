@@ -18,7 +18,7 @@ const Hero = () => {
                        <Title level={2} className='text-center'>Email: {user.email}</Title> */}
                        <Space>
                         <Link to="/" className='btn btn-primary'>Frontend</Link>
-                        <Link to="/todos" className='btn btn-primary'>Todos</Link>
+                        <Link to="/dashboard/todos" className='btn btn-primary'>Todos</Link>
                        </Space>
                     </Col>
                 </Row> 
