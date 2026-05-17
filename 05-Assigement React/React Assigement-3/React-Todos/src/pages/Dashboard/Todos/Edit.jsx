@@ -80,7 +80,7 @@ const Edit = () => {
                         <Item label="Due-Date">
                             <DatePicker size='large' placeholder="Enter due date"  value={state.dueDate ? dayjs(state.dueDate) : null} name="title" className='w-100' onChange={(obj, dueDate) => {setState(s => ({...s, dueDate})) }} />
                         </Item>
-                        {/* <Item label={`Due-Date: ${state.dueDate}`}>
+                        {/* <Item label={`Due-Date: ${state.dueDate || ""}`}>
                             <DatePicker size='large' placeholder="Enter due date"  value={state.dueDate ? dayjs(state.dueDate) : null} name="title" className='w-100' onChange={(obj, dueDate) => {setState(s => ({...s, dueDate})) }} />
                         </Item> */}
                         <Item label="Description">
